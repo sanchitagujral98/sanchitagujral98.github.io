@@ -1,2 +1,2 @@
 # sanchitagujral98.github.io
-new repo
+My website

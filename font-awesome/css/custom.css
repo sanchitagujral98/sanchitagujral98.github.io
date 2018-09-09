@@ -1,0 +1,145 @@
+/* Global Styles */
+
+html body {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            background-repeat: no-repeat !important;
+            background-image: url("http://www.1designshop.com/wp-content/uploads/2015/12/1dsp-20151221-backgroung009.png");
+            background-size: cover !important;
+            background-position: 0% 0%;
+        }
+
+        .header {
+            display: table;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+
+        }
+
+        .vert-text {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+
+        }
+
+        .vert-text h1 {
+            padding: 0;
+            margin: 0;
+            font-size: 4.5em;
+            font-weight: normal;
+            font-family: 'Poiret One', serif;
+          }
+
+        .dp {
+            height: 170px;
+            width: auto;
+            border-radius: 50%;
+            margin-top: -60px
+        }
+
+        .icons {
+            padding-left: 5px;
+            color: #fff;
+        }
+        .icons:hover {
+            color: #0a3a87;
+        }
+
+        .heading {
+            color: black;
+            font-family: 'Roboto Slab', cursive;
+
+            /*text-shadow: 0 0 .313em #fff, 0 0 .625em #fff*/
+        }
+
+        .heading-2 {
+            color: #0a3a87;
+            /*text-shadow: 0 0 .313em #d96459, 0 0 .625em #d96459*/
+        }
+
+        .hideIt {
+            opacity: 0
+        }
+
+        .showIt {
+            opacity: 1 !important;
+            -webkit-transition: all .7s ease-in-out;
+            -moz-transition: all .7s ease-in-out;
+            -o-transition: all .7s ease-in-out;
+            -ms-transition: all .7s ease-in-out;
+            transition: all .7s ease-in-out
+        }
+
+        .typed-cursor {
+            opacity: 1;
+            -webkit-animation: blink .7s infinite;
+            -moz-animation: blink .7s infinite;
+            animation: blink .7s infinite
+        }
+        .overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        @keyframes blink {
+            0% {
+                opacity: 1
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            html,
+            body {
+                height: 100%;
+                width: 100%
+            }
+            .dp {
+                height: 120px
+            }
+            .icons {
+                font-size: 30px;
+                padding-left: 5px
+            }
+            .vert-text h1 {
+                font-size: 2.3em;
+
+            }
+            h2 {
+                font-size: 1.4em
+            }
+        }
